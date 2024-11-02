@@ -12,6 +12,8 @@ Launch and play with the following command to see how it works:
 docker compose run --rm php bin/console order --help
 ```
 
+The classes and tests are not organized (they are all directly in `src/` or `tests/`). It’s done on purpose to make you think about you’d structure such a project.
+
 ## Exercise 1
 
 ⏲ 20 minutes + 10 minutes debrief
@@ -33,7 +35,9 @@ You can write pseudo-code or take shortcuts if you want. The code doesn't have t
 
 Now, let's have a look at the `tests/AlmostHidden` folder. It contains test classes that tests code. (You can forget about `tests/AlmostHidden/MarsRoverPositionJsonRepositoryTest.php` for now).
 
-How does it compare with your solution? What are the pros and cons of each approach?
+- How does it compare with your solution? 
+- What are the pros and cons of each approach? 
+- How would you organize the tests in the `tests` folder and the production code in the `src` folder?
 
 ## Exercise 3
 

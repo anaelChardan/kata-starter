@@ -21,7 +21,7 @@ class OrderMarsRoverCli extends Command
     protected function configure(): void
     {
         $help = <<<HELP
-'This command allows you to order a series of rovers. For each rover, you must provide its initial position and a series of instructions. 
+This command allows you to order a series of rovers. For each rover, you must provide its initial position and a series of instructions. 
 
 The initial position is composed of two integers and a cardinal letter. The integers represent the x and y coordinates of the rover. The cardinal letter represents the direction the rover is facing. The possible cardinal letters are: N (north), S (south), E (east) and W (west). 
 
