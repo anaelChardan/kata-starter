@@ -3,6 +3,7 @@ php/.phpunit.cache/
 php/build
 .phpunit.result.cache
 
+ts/build
 ts/node_modules
 
 !.idea

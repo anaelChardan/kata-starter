@@ -16,7 +16,8 @@ class MarsRoverPositionJsonRepositoryTest extends TestCase
     {
         parent::setUp();
 
-        $this->filename = sys_get_temp_dir() . DIRECTORY_SEPARATOR . uniqid('mars-rover-positions.json');
+        $this->filename = sys_get_temp_dir() . DIRECTORY_SEPARATOR .uniqid() . '-mars-rover-positions.json';
+        file_put_contents($this->filename, '');
     }
 
     protected function tearDown(): void
