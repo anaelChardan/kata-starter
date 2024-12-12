@@ -1,0 +1,7 @@
+version: '3.5'
+
+services:
+  node:
+    image: node:23-alpine
+    volumes:
+      - .:/usr/src/app

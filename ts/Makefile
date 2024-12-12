@@ -5,6 +5,10 @@ NPM=docker run --rm -it -v  $(shell pwd):/home/node/app -w /home/node/app node:2
 ts:
 	${NPM} ${C}
 
+.PHONY: build
+build:
+	${NPM} run build
+
 .PHONY: test
 test:
 	${NPM} test

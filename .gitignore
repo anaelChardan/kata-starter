@@ -4,6 +4,7 @@ php/build
 .phpunit.result.cache
 
 ts/build
+ts/dist
 ts/node_modules
 
 !.idea
