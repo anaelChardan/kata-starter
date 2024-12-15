@@ -1,0 +1,24 @@
+{
+  "name": "kata_starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run",
+    "build": "npx tsc",
+    "start": "tsx bin/console.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "tsx": "^4.10.0",
+    "vitest": "^2.1.8"
+  },
+  "volta": {
+    "node": "22.12.0",
+    "pnpm": "9.15.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}

@@ -5,7 +5,7 @@ php/build
 
 ts/build
 ts/dist
-ts/node_modules
+node_modules
 
 !.idea
 .idea/*.xml
